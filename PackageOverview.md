@@ -14,12 +14,14 @@ The `struct` module provides a way to work with packed binary data, which is ver
 
 ### Packing Data: `struct.pack(format, v1, v2, ...)`
 This function takes a format string and a sequence of values, packing the values into a bytes object according to the given format.
-```packed_data = struct.pack('!I5s', 7, b'Hello')
+```
+packed_data = struct.pack('!I5s', 7, b'Hello')
 print(packed_data)
 ```
 ### Unpacking Data: `struct.unpack(format, buffer)`
 This reverses the operation of `pack`, taking a bytes object and converting it back into a sequence of Python values.
-```unpacked_data = struct.unpack('!I5s', packed_data)
+```
+unpacked_data = struct.unpack('!I5s', packed_data)
 print(unpacked_data)
 
 ```
