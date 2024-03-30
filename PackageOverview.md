@@ -30,3 +30,5 @@ size = struct.calcsize('!I5s')
 print(size)
 
 ```
+## Period of Creation
+The `struct` module has been part of Python since its early versions, reflecting the language's design goal to be capable of interacting with C libraries and handling low-level data operations. Specific dates of creation or inclusion might vary, but it has been a staple in Python's standard library for decades.
