@@ -34,3 +34,6 @@ print(size)
 ```
 ## Period of Creation
 The `struct` module has been part of Python since its early versions, reflecting the language's design goal to be capable of interacting with C libraries and handling low-level data operations. Specific dates of creation or inclusion might vary, but it has been a staple in Python's standard library for decades.
+
+## Reason for Package/Library Selection
+The selection hinges on the `struct` module's utility in a broad range of applications, from systems programming to data science, where efficiency and direct control over binary data formats are required. Its role is crucial in scenarios where Python interacts with hardware, networks, or formats where data compactness and speed of access are paramount. The module exemplifies Python's capability to bridge high-level ease of use with low-level control.
